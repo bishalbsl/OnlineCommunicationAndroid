@@ -14,6 +14,12 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+
+        // If Android Studio IDE set HTTP proxy settings page will override this HTTP proxy
+//        systemProp.http.proxyHost=YOUR_PROXY_HOST
+//        systemProp.http.proxyPort=YOUR_PROXY_PORT
+//        systemProp.http.proxyUser=YOUR_PROXY_USERNAME
+//        systemProp.http.proxyPassword=YOUR_PROXY_PASSWORD
     }
 
     buildTypes {
